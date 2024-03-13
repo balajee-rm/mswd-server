@@ -102,5 +102,6 @@ app.put('/update',async (req,res)=>{
     res.send("updated")
 })
 
-app.listen(8081)
+const port = 8080
+app.listen(port)
 console.log("server running")
